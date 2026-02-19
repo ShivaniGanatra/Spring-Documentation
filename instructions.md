@@ -451,5 +451,48 @@ Can also do this
 
 Spring overview
 
+![alt text](/images/image-27.png)
+
+Nothing in database so port is empty
+
 ![alt text](/images/image-26.jpg)
 
+user controller
+postapping
+![alt text](/images/image-29.png)
+
+![alt text](/images/image-30.png)
+
+user service
+create on post request
+add user
+validation
+name should be not empty 
+emial shouldnt be empty
+email shouldnt already be in use
+
+
+In userpository that will return true if a user exists in a database
+
+![alt text](/images/image-31.png)
+
+![alt text](/images/image-32.png)
+
+user service
+Save is method on jpa repository
+
+![alt text](/images/image-33.png)
+
+![alt text](/images/image-34.png)
+
+
+Postman request should be raw and JSON
+
+You cant send an email to the api if already exists so you get an exception and a 202
+
+![alt text](/images/image-35.png)
+
+![alt text](/images/image-36.png)
+
+Check if same
+![alt text](/images/image-37.png)
